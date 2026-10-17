@@ -1,0 +1,3 @@
+# Module tests mutate the process-global GRAY_HOME; run them serially.
+[env]
+RUST_TEST_THREADS = "1"
